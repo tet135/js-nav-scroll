@@ -1,0 +1,29 @@
+.big {
+	height: 1000px;
+	background-color: orange;
+}
+
+.scroll {
+	background-color: orangered;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+
+	transition: opacity 0.7s;
+	&:hover {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	
+	display: none;
+}
+
+.scrollImg {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto auto;
+}
